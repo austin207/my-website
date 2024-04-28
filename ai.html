@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+  <section>
+    <div class="container">
+      <h1>AI Assistant</h1>
+      <form id="prompt-form" method="POST">
+        <label for="prompt">Enter your prompt:</label>
+        <input type="text" id="prompt" name="prompt">
+        <button type="submit">Submit</button>
+      </form>
+      <div class="response-area">
+        <h2>Response:</h2>
+        <p id="assistant-response"></p>
+      </div>
+      <div class="rating-area">
+        <h2>Rate the response:</h2>
+        <form id="rating-form">
+          <label for="rating">Rating:</label>
+          <select id="rating" name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <label for="feedback">Feedback:</label>
+          <textarea id="feedback" name="feedback"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="log-area">
+        <h2>Log:</h2>
+        <pre id="log"></pre>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

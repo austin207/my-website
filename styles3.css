@@ -1,0 +1,96 @@
+/* AI Styles */
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 2rem;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styles */
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    color: #777;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: none; /* Disable resize for textarea */
+  }
+  
+  button[type="submit"] {
+    padding: 0.7rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    align-self: flex-end; /* Align submit button to the end */
+  }
+  
+  /* Response Styles */
+  .response-area,
+  .rating-area,
+  .log-area {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  #response {
+    font-size: 1rem;
+    line-height: 1.5; /* Improve readability */
+  }
+  
+  /* Rating Area Styles */
+  .rating-area select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Log Area Styles */
+  #log {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 0.8rem;
+    color: #aaa;
+  }
+  
